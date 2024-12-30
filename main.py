@@ -50,7 +50,6 @@ def generate_keyword():
 
 def get_random_domain(proxy_dict):
     keyword = generate_keyword()
-    url = f"https://email-fake.com/search.php?key={keyword}"
     url = f"https://generator.email/search.php?key={keyword}"
     
     try:
